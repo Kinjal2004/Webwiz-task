@@ -1,0 +1,139 @@
+*{
+    margin :0;
+    padding: 0;
+}
+
+body{
+    background-color:rgb(193, 49, 13);
+}
+
+
+h1{
+   text-align: center;
+   font-size: 30px;
+   
+}
+
+.P{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.P p1{
+    font-size: 20px;
+}
+@keyframes type{
+    from{
+        width: 400px;
+    }
+    to{
+        width: 400px;
+    }
+}
+
+.P p2{
+    font-size: 25px;
+}
+.div-buttons{
+    text-align: center;
+}
+.footer{
+    text-align : center;
+}
+
+.navbar{
+    display : flex;
+    position:sticky;
+    top: 0;
+    cursor: pointer;
+    width : 100%;
+    height: 10vh;
+
+}
+.nav-list{
+    width : 100%;
+    display: flex;
+    font-size: 20px;
+    color:black;
+    justify-content: left;
+    align-items: center;
+}
+.nav-list li a{
+    text-decoration: none;
+    padding: 23px 30px;
+    color:black;
+    
+
+}
+.nav-list li a:hover{
+    color : blue;
+}
+.nav-list li{
+    list-style: none;
+    text-align: left;
+}
+.time{
+    display: flex
+    
+}
+.time h1{
+    text-align: right;
+    font-size: 13px;
+    font-style: oblique;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding : 5px;
+}
+.background{
+    background: rgba(0,0,0,0.1);
+    background-size: cover;
+    background-blend-mode: darken ;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 2px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 1px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 16px;
+  }
+  
+  .b1:hover{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .b1{
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .b2:hover{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+  }
+  
+  .b2 {
+    background-color: #008CBA;
+    color: white;
+  }
+  
+  .b3:hover{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #f44336;
+  }
+  
+  .b3 {
+    background-color: #f44336;
+    color: white;
+  }
+  
+
+
